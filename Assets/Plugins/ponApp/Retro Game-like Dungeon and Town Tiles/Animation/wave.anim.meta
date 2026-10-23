@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b8e106e4c01074c4c8e058102122df06
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 7400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 230800
+  packageName: Retro Game-like Dungeon and Town Tiles
+  packageVersion: 1.1
+  assetPath: Assets/ponApp/Retro Game-like Dungeon and Town Tiles/Animation/wave.anim
+  uploadId: 524710

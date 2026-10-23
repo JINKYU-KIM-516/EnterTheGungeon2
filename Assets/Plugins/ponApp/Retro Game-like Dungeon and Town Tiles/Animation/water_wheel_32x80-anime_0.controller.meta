@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 3e556430f749a534bb9037dd9c2a8ed9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 230800
+  packageName: Retro Game-like Dungeon and Town Tiles
+  packageVersion: 1.1
+  assetPath: Assets/ponApp/Retro Game-like Dungeon and Town Tiles/Animation/water_wheel_32x80-anime_0.controller
+  uploadId: 524710

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 12f245e129e72ce4eb7fec8a4ffed4e7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 230800
+  packageName: Retro Game-like Dungeon and Town Tiles
+  packageVersion: 1.1
+  assetPath: Assets/ponApp/Retro Game-like Dungeon and Town Tiles/Animation/water_wave_16x16-anime_0.controller
+  uploadId: 524710
