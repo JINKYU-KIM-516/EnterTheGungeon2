@@ -8,9 +8,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] private Camera m_MainCamera;
     [SerializeField] private Player m_Player;
     [SerializeField] private PlayerControl m_PlayerControl;
-    [SerializeField] private RoomManager m_RoomManager;
-    [SerializeField] private EnemyManager m_EnemyManager;
-    [SerializeField] private ItemManager m_ItemManager;
+    //[SerializeField] private RoomManager m_RoomManager;
+    //[SerializeField] private EnemyManager m_EnemyManager;
+    //[SerializeField] private ItemManager m_ItemManager;
     [SerializeField] protected Transform m_BulletManager;
     [SerializeField] protected ScreenBlinder m_ScreenBlinder;
 
@@ -61,13 +61,14 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(1.5f);
 
         CurrentFloor++;
-        m_RoomManager.ResetRooms();
-        foreach (Transform enemy in m_EnemyManager.transform)
-            Destroy(enemy.gameObject);
-        foreach (Transform item in m_ItemManager.transform)
-            Destroy(item.gameObject);
-        foreach (Transform bullet in m_BulletManager.transform)
-            Destroy(bullet.gameObject);
+        //[SerializeField] private RoomManager m_RoomManager;
+        //m_RoomManager.ResetRooms();
+        //foreach (Transform enemy in m_EnemyManager.transform)
+        //    Destroy(enemy.gameObject);
+        //foreach (Transform item in m_ItemManager.transform)
+        //    Destroy(item.gameObject);
+        //foreach (Transform bullet in m_BulletManager.transform)
+        //    Destroy(bullet.gameObject);
 
         Vector2 playerPos = new Vector2(12f, 6f);
         m_PlayerObj.transform.position = playerPos;
